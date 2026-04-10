@@ -1,7 +1,7 @@
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --gold:#C5A97E;--gold2:#D3C08A;--goldk:#a8895e;--goldtext:#c9a96e;
-  --dark-bg:#2c2c2c;--dark-bg2:#323232;
+  --dark-bg:#2d2d2d;--dark-bg2:#2d2d2d;
   --page-bg:#EDEAE4;--white:#fff;
   --card-bg:#fff;--dark-tile:#2d2d2d;
   --text:#1a1a1a;--text2:#444;--text3:#666;
@@ -25,7 +25,7 @@ img{display:block;max-width:100%;height:auto}
 /* ══════════════════════════════
    TOPBAR (home only)
 ══════════════════════════════ */
-.topbar{background:#4a2c2c;padding:6px 0;border-bottom:1px solid rgba(0,0,0,.1);width:100%}
+.topbar{background:#2d2d2d;padding:6px 0;border-bottom:1px solid rgba(0,0,0,.1);width:100%}
 .topbar .wrap-wide{display:flex;align-items:center;justify-content:space-between}
 .topbar-left{display:flex;gap:24px}
 .topbar-left a{font-family:'Sora',sans-serif;font-size:12px;color:#eee;display:flex;align-items:center;gap:6px;transition:color .2s}
