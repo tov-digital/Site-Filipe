@@ -1,4 +1,4 @@
-﻿*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
   --gold:#C5A97E;--gold2:#D3C08A;--goldk:#a8895e;--goldtext:#c9a96e;
   --dark-bg:#2c2c2c;--dark-bg2:#323232;
@@ -25,14 +25,14 @@ img{display:block;max-width:100%;height:auto}
 /* ══════════════════════════════
    TOPBAR (home only)
 ══════════════════════════════ */
-.topbar{background:var(--page-bg);padding:6px 0;border-bottom:1px solid rgba(0,0,0,.06);width:100%}
+.topbar{background:#4a2c2c;padding:6px 0;border-bottom:1px solid rgba(0,0,0,.1);width:100%}
 .topbar .wrap-wide{display:flex;align-items:center;justify-content:space-between}
 .topbar-left{display:flex;gap:24px}
-.topbar-left a{font-family:'Sora',sans-serif;font-size:12px;color:#555;display:flex;align-items:center;gap:6px;transition:color .2s}
+.topbar-left a{font-family:'Sora',sans-serif;font-size:12px;color:#eee;display:flex;align-items:center;gap:6px;transition:color .2s}
 .topbar-left a:hover{color:var(--goldk)}
 .topbar-left i{color:var(--goldk);font-size:11px}
 .t-soc{display:flex;gap:8px}
-.t-soc a{width:26px;height:26px;border:1px solid #ccc;display:flex;align-items:center;justify-content:center;color:#777;font-size:11px;transition:all .2s;border-radius:3px}
+.t-soc a{width:26px;height:26px;border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;color:#eee;font-size:11px;transition:all .2s;border-radius:3px}
 .t-soc a:hover{border-color:var(--gold);color:var(--goldk)}
 
 /* ══════════════════════════════

@@ -1,10 +1,12 @@
 {
-  "name": "advocaciafilipecarvalho",
+  "name": "site-filipe",
   "version": "1.0.0",
   "description": "Site Advocacia Filipe Carvalho",
   "scripts": {
     "dev": "npx -y serve . -p 3000 --no-clipboard",
     "start": "npx -y serve . -p 3000 --no-clipboard"
   },
-  "packages": {}
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
