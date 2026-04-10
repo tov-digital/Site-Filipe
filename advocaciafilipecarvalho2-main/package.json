@@ -1,0 +1,10 @@
+{
+  "name": "advocaciafilipecarvalho",
+  "version": "1.0.0",
+  "description": "Site Advocacia Filipe Carvalho",
+  "scripts": {
+    "dev": "npx -y serve . -p 3000 --no-clipboard",
+    "start": "npx -y serve . -p 3000 --no-clipboard"
+  },
+  "packages": {}
+}
